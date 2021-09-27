@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: white;
+}
+
+.main_container {
+    width: 80%;
+    margin: auto;
+}
+
+.main_container .navbar {
+    background: #0d0d0d;
+    width: 100%;
+    height: 50px;
+    color: white;
+}
+
+
+.logo_text h3 {
+    font-size: 25px;
+    padding: 10px;
+    display: inline-block;
+    float: left;
+}
+
+.profile {
+    position: relative;
+    float: right;
+    display: inline-block;
+    /*    width: auto;*/
+}
+
+.drop_btn {
+    position: absolute;
+/*        background: red;*/
+    /*    padding: 0px 0px;*/
+    white-space: nowrap;
+    top: 12px;
+    right: 20px;
+    font-size: 17px;
+    font-weight: 750;
+}
+
+.dropdown_content {
+    display: none;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+
+}
+
+.dropdown_content .text {
+    background: black;
+    width: 150px;
+    height: 20px;
+    padding: 5px;
+    font-size: 16.5px;
+    font-weight: 600;
+}
+
+.dropdown_content .manu {
+    background: #ddd;
+    width: 160px;
+
+    /*    padding: 5px;*/
+    font-size: 16.5px;
+    font-weight: 600;
+}
+
+.dropdown_content a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 5px;
+}
+
+.dropdown_content a:hover {
+    background: #00e6e6;
+}
+
+.profile:hover .dropdown_content {
+    background: green;
+    display: block;
+}
+
+
+.main_container .row_1 {}
+
+.main_container .row_1 .manubar {
+    background: #262626;
+    width: 20%;
+    /*    height: 480px;*/
+    float: left;
+    color: white;
+    /*    display: inline-block;*/
+}
+
+ul {
+    list-style-type: none;
+}
+
+.main_container .row_1 .manubar ul li {
+    border-bottom: 0.5px solid #404040;
+}
+
+.main_container .row_1 .manubar ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px 0px 10px 15%;
+    width: 84.5%
+}
+
+.main_container .row_1 .manubar ul li a:hover {
+    background: #606060;
+}
+
+.main_container .row_1 .container {
+    width: 80%;
+    float: left;
+}
+
+.main_container .row_1 .container .contain_area {
+    width: 100%;
+    background: #e6e6e6;
+    min-height: auto;
+    color: black;
+    text-align: center;
+}
+
+.main_container .row_1 .container .contain_manu {
+    width: 100%;
+    background: #666666;
+    height: 40px;
+    color: white;
+
+    /*    display: inline-block;*/
+}
+
+span.text_manu {
+    padding-top: 10px;
+    padding-left: 20px;
+    display: block;
+}
+
+.main_container footer {
+    width: 100%;
+    background: #00e6e6;
+    height: 100px;
+    display: inline-block;
+    color: black;
+}
+
+
+
+
+/*Add Category style stated*/
+.category_manu {
+    width: 100%;
+    height: 30px;
+    background: #bf80ff;
+    text-align: center;
+    font-weight: 550;
+}
+
+.form_area {
+    margin: 20px;
+}
+
+.form_area form {
+
+    border: 1px solid black;
+
+}
+
+.form_span {
+
+    margin: 10px
+}
+
+.in_name {
+    float: left;
+    width: 200px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.in_name  .in_name_text{
+    float:right;
+}
+
+.in_value input {
+    width: 250px;
+    height: 25px;
+    padding: 2.5px;
+    font-size: 15px;
+
+}
+
+
+.in_value textarea {
+    width: 320px;
+    font-size: 15px;
+}
+
+.in_value_s select {
+     width: 258px;
+    height: 30px;
+    padding: 2.5px 15px;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+.in_value_s select option {
+    font-size: 15px;
+}
+
+.form_control {
+    background: #bf80ff;
+    padding-left: 190px
+}
+
+.botton_1 input {
+    background: #0066cc;
+    width: 150px;
+    font-size: 15px;
+    height: 30px;
+    float: left;
+    margin: 20px;
+}
+
+.botton_2 input {
+    background: #c2d6d6;
+    width: 100px;
+    font-size: 15px;
+    height: 30px;
+    margin: 20px;
+}
+
+/*Add Category style end*/
+
+/*manage category style start*/
+.table_area table .published{
+    width: 25px;
+    height: 25px;
+    border-radius:10px;
+    background:green;
+    border:none;
+    margin-top:5px;
+    
+}
+.published a{
+    text-decoration: none;
+}
+.table_area table .unpublished{
+    width: 25px;
+    height: 25px;
+    border-radius:10px;
+    background:red;
+    border:none;
+    margin-top:5px;
+}
